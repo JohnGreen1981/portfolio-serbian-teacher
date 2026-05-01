@@ -1,4 +1,10 @@
-# Security
+# Безопасность
 
-Do not commit bot tokens, OpenAI keys, Supabase keys, personal Telegram IDs, copyrighted course material, or user learning data.
+Не коммитить Telegram-токены, OpenAI-ключи, Supabase-ключи, реальные Telegram ID, материалы учебников без проверки прав, приватную базу Supabase и пользовательскую историю занятий.
 
+Перед публикацией проверить:
+
+- `.env.example` содержит только placeholder-значения;
+- в `schema.sql` нет приватных учебных заметок или данных пользователя;
+- PDF/DOCX учебников и паспорт проекта не добавлены в git;
+- secret scan не находит токены и ключи.
